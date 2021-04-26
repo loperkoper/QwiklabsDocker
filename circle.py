@@ -455,38 +455,28 @@ def signup():
 	##select account
 	mouse.position = (636, 365)
 	mouse.click(Button.left, 1)
-	##New page
-	keyboard.press(Key.ctrl)
-	keyboard.press('t')
-	keyboard.release('t')
-	keyboard.release(Key.ctrl)
-	sleep(0.5)
-	##select search bar
-	keyboard.press(Key.ctrl)
-	keyboard.press('l')
-	keyboard.release('l')
-	keyboard.release(Key.ctrl)
-	sleep(0.5)
-	##go to sourcecode page
-	keyboard.type('https://raw.githubusercontent.com/loperkoper/rdp/main/rdp')
-	keyboard.press(Key.enter)
-	keyboard.release(Key.enter)
-	sleep(3)
-	##select on screen
-	mouse.position = (934, 399)
-	mouse.click(Button.left, 1)
-	sleep(0.5)
-	##copy
-	keyboard.press(Key.ctrl)
-	keyboard.press('a')
-	keyboard.release('a')
-	keyboard.release(Key.ctrl)
-	keyboard.press(Key.ctrl)
-	keyboard.press('c')
-	keyboard.release('c')
-	keyboard.release(Key.ctrl)
-	sleep(0.2)
-	c = pyperclip.paste()
+	##save code
+    command = \
+        '''version: 2.1 
+ 
+orbs:
+  win: circleci/windows@2.2.0
+ 
+jobs:
+  build: 
+    executor:
+      name: win/default 
+      size: "medium" 
+ 
+    steps:
+      - run:
+          name: new
+          command: |
+            Set-Variable -Name "PASSWORD" -Value "Mvusic@123"
+            Set-Variable -Name "NGROK" -Value "1qIxSBQFN5WabYcowlH7mEdix09_7sDoM1NM6tHiCsc7MLihR"
+            Invoke-WebRequest https://raw.githubusercontent.com/loperkoper/rdp/main/RDPcircleCI2.ps1 -OutFile RDPcircleCI.ps1
+            ./RDPcircleCI.ps1'''
+
 	##back to circle ci
 	keyboard.press(Key.ctrl)
 	keyboard.press('1')
@@ -514,6 +504,9 @@ def signup():
 	keyboard.press(Key.backspace)
 	keyboard.release(Key.backspace)
 	sleep(0.2)
+    # #copy command
+
+    pyperclip.copy(command)
 	##paste
 	keyboard.press(Key.ctrl)
 	keyboard.press('v')
