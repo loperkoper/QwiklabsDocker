@@ -572,15 +572,8 @@ def signin():
 		##click confirm
 		mouse.position = (824, 643)
 		mouse.click(Button.left, 1)
-		##save pass
-		mouse.position = (1140, 370)
-		mouse.click(Button.left, 1)
-		sleep(1.5)
 		sleep(15)
 		##checkbox
-		mouse.position = (508, 572)
-		mouse.click(Button.left, 1)
-		sleep(1)
 		mouse.position = (434, 488)
 		mouse.click(Button.left, 1)
 		sleep(1)
