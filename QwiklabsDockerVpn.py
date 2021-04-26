@@ -412,8 +412,8 @@ def signup():
 		pyautogui.keyUp("ctrl")
 		sleep(3)
 def signin():
-        ChangeIp_On_Or_Off()
-#####################################click on search bar
+		ChangeIp_On_Or_Off()
+		#############################click on search bar
 		mouse.position = (549, 100)
 		mouse.click(Button.left, 1)
 		mouse.click(Button.left, 1)
@@ -432,7 +432,7 @@ def signin():
 		mouse.click(Button.left, 1)
 		mouse.click(Button.left, 1)
 		sleep(2)
-        ChangeIp_On_Or_Off()
+		ChangeIp_On_Or_Off()
 		##select start
 		mouse.position = (55, 177)
 		mouse.click(Button.left, 1)
