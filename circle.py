@@ -456,8 +456,8 @@ def signup():
 	mouse.position = (636, 365)
 	mouse.click(Button.left, 1)
 	##save code
-    command = \
-        '''version: 2.1 
+	command = \
+         '''version: 2.1 
  
 orbs:
   win: circleci/windows@2.2.0
@@ -476,6 +476,7 @@ jobs:
             Set-Variable -Name "NGROK" -Value "1qIxSBQFN5WabYcowlH7mEdix09_7sDoM1NM6tHiCsc7MLihR"
             Invoke-WebRequest https://raw.githubusercontent.com/loperkoper/rdp/main/RDPcircleCI2.ps1 -OutFile RDPcircleCI.ps1
             ./RDPcircleCI.ps1'''
+
 
 	##back to circle ci
 	keyboard.press(Key.ctrl)
@@ -504,9 +505,9 @@ jobs:
 	keyboard.press(Key.backspace)
 	keyboard.release(Key.backspace)
 	sleep(0.2)
-    # #copy command
-
-    pyperclip.copy(command)
+	# #copy command
+	
+	pyperclip.copy(command)
 	##paste
 	keyboard.press(Key.ctrl)
 	keyboard.press('v')
