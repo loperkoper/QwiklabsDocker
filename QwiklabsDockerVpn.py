@@ -576,12 +576,7 @@ def signin():
 		mouse.position = (1140, 370)
 		mouse.click(Button.left, 1)
 		sleep(1.5)
-		##back to google console
-		keyboard.press(Key.ctrl)
-		keyboard.press('2')
-		keyboard.release('2')
-		keyboard.release(Key.ctrl)
-		sleep(10)
+		sleep(15)
 		##checkbox
 		mouse.position = (434, 488)
 		mouse.click(Button.left, 1)
