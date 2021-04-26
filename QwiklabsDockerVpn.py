@@ -562,13 +562,13 @@ def signin():
 		keyboard.type(c)
 		keyboard.press(Key.enter)
 		keyboard.release(Key.enter)
-		sleep(12)
+		sleep(7)
 		##click accept
 		mouse.position = (678, 575)
 		mouse.click(Button.left, 1)
 		mouse.position = (574, 603)
 		mouse.click(Button.left, 1)
-		sleep(30)
+		sleep(7)
 		##click confirm
 		mouse.position = (824, 643)
 		mouse.click(Button.left, 1)
@@ -582,14 +582,6 @@ def signin():
 		keyboard.release('2')
 		keyboard.release(Key.ctrl)
 		sleep(10)
-		##choose country:
-		mouse.position = (83, 642)
-		mouse.click(Button.left, 1)
-		sleep(0.5)
-		keyboard.type('u')
-		keyboard.press(Key.enter)
-		keyboard.release(Key.enter)
-		sleep(2)
 		##checkbox
 		mouse.position = (434, 488)
 		mouse.click(Button.left, 1)
