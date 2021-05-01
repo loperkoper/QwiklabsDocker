@@ -109,15 +109,15 @@ sleep(0.5)
 keyboard.type('https://addons.mozilla.org/en-US/firefox/addon/buster-captcha-solver/')
 keyboard.press(Key.enter)
 keyboard.release(Key.enter)
-sleep(5)
+sleep(7)
 
 ##click on add to firefox
 mouse.position = (734, 482)
 mouse.click(Button.left, 1) 
-sleep(3)
+sleep(4)
 mouse.position = (643, 299)
 mouse.click(Button.left, 1)
-sleep(1)
+sleep(2)
 
 ##new tab
 mouse.position = (240, 32)
@@ -140,15 +140,15 @@ sleep(0.5)
 keyboard.type('https://addons.mozilla.org/en-US/firefox/addon/browsec/')
 keyboard.press(Key.enter)
 keyboard.release(Key.enter)
-sleep(5)
+sleep(7)
 
 ##click on add to firefox
 mouse.position = (741, 513)
 mouse.click(Button.left, 1) 
-sleep(3)
+sleep(4)
 mouse.position = (618, 276)
 mouse.click(Button.left, 1)
-sleep(1)
+sleep(2)
 
 ##close vpn page
 mouse.position = (433, 38)
@@ -159,6 +159,9 @@ sleep(2)
 mouse.position = (240, 32)
 mouse.click(Button.left, 1)
 sleep(3)
+
+##start vpn
+first_change_ip()
 
 ## close pre page
 mouse.position = (208, 34)
