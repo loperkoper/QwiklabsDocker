@@ -386,6 +386,9 @@ def signup():
     mouse.click(Button.left, 1)
     sleep(1)
     error1()
+    mouse.position = (582, 589)
+    mouse.click(Button.left, 1)
+    sleep(4)
     ##click on refresh
     mouse.position = (486, 431)
     mouse.click(Button.left, 1)
@@ -399,6 +402,9 @@ def signup():
     mouse.click(Button.left, 1)
     sleep(1)
     error1()
+    mouse.position = (582, 589)
+    mouse.click(Button.left, 1)
+    sleep(4)
     ##click on refresh
     mouse.position = (486, 431)
     mouse.click(Button.left, 1)
@@ -412,6 +418,9 @@ def signup():
     mouse.click(Button.left, 1)
     sleep(1)
     error1()
+    mouse.position = (582, 589)
+    mouse.click(Button.left, 1)
+    sleep(4)
     ##click on refresh
     mouse.position = (486, 431)
     mouse.click(Button.left, 1)
@@ -425,6 +434,13 @@ def signup():
     mouse.position = (582, 589)
     mouse.click(Button.left, 1)
     sleep(5)
+    ##scroll down
+    mouse.position = (1360, 613)
+    mouse.click(Button.left, 1)
+    sleep(1)
+    mouse.position = (1360, 613)
+    mouse.click(Button.left, 1)
+    sleep(1)
     ##click on creat account
     mouse.position = (874, 464)
     mouse.click(Button.left, 1)
