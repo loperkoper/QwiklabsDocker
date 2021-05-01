@@ -336,47 +336,47 @@ def signup():
     ##click on first solver
     mouse.position = (582, 589)
     mouse.click(Button.left, 1)
-    sleep(5)
+    sleep(7)
     ##click on refresh
     mouse.position = (486, 431)
     mouse.click(Button.left, 1)
-    sleep(4)
-    ##click on solver
-    mouse.position = (580, 434)
-    mouse.click(Button.left, 1)
     sleep(5)
-    ##click on refresh
-    mouse.position = (486, 431)
-    mouse.click(Button.left, 1)
-    sleep(4)
-    ##click on solver
-    mouse.position = (580, 434)
-    mouse.click(Button.left, 1)
-    sleep(5)
-    ##click on refresh
-    mouse.position = (486, 431)
-    mouse.click(Button.left, 1)
-    sleep(4)
-    ##click on solver
-    mouse.position = (580, 434)
-    mouse.click(Button.left, 1)
-    sleep(5)
-    ##click on refresh
-    mouse.position = (486, 431)
-    mouse.click(Button.left, 1)
-    sleep(4)
-    ##click on solver
-    mouse.position = (580, 434)
-    mouse.click(Button.left, 1)
-    sleep(5)
-    ##click on refresh
-    mouse.position = (486, 431)
-    mouse.click(Button.left, 1)
-    sleep(4)
     ##click on solver
     mouse.position = (580, 434)
     mouse.click(Button.left, 1)
     sleep(7)
+    ##click on refresh
+    mouse.position = (486, 431)
+    mouse.click(Button.left, 1)
+    sleep(5)
+    ##click on solver
+    mouse.position = (580, 434)
+    mouse.click(Button.left, 1)
+    sleep(7)
+    ##click on refresh
+    mouse.position = (486, 431)
+    mouse.click(Button.left, 1)
+    sleep(5)
+    ##click on solver
+    mouse.position = (580, 434)
+    mouse.click(Button.left, 1)
+    sleep(7)
+    ##click on refresh
+    mouse.position = (486, 431)
+    mouse.click(Button.left, 1)
+    sleep(5)
+    ##click on solver
+    mouse.position = (580, 434)
+    mouse.click(Button.left, 1)
+    sleep(7)
+    ##click on refresh
+    mouse.position = (486, 431)
+    mouse.click(Button.left, 1)
+    sleep(5)
+    ##click on solver
+    mouse.position = (580, 434)
+    mouse.click(Button.left, 1)
+    sleep(10)
     ##click on creat account
     mouse.position = (874, 464)
     mouse.click(Button.left, 1)
@@ -529,11 +529,11 @@ def signin():
     ##select recaptcha
     mouse.position = (54, 261)
     mouse.click(Button.left, 1)
-    sleep(5)
+    sleep(7)
     ##select solver
     mouse.position = (166, 594)
     mouse.click(Button.left, 1)
-    sleep(5)
+    sleep(7)
     ##refresh captcha
     ##select recaptcha
     mouse.position = (72, 351)
@@ -545,7 +545,7 @@ def signin():
     sleep(3)
     mouse.position = (55, 269)
     mouse.click(Button.left, 1)
-    sleep(2)
+    sleep(3)
     ##click solver
     ##select recaptcha
     mouse.position = (165, 354)
@@ -557,7 +557,7 @@ def signin():
     sleep(5)
     mouse.position = (55, 269)
     mouse.click(Button.left, 1)
-    sleep(2)
+    sleep(3)
     ##refresh captcha
     ##select recaptcha
     mouse.position = (72, 351)
@@ -569,7 +569,7 @@ def signin():
     sleep(3)
     mouse.position = (55, 269)
     mouse.click(Button.left, 1)
-    sleep(2)
+    sleep(3)
     ##click solver
     ##select recaptcha
     mouse.position = (165, 354)
@@ -581,7 +581,7 @@ def signin():
     sleep(5)
     mouse.position = (55, 269)
     mouse.click(Button.left, 1)
-    sleep(2)
+    sleep(3)
     ##refresh captcha
     ##select recaptcha
     mouse.position = (72, 351)
@@ -593,7 +593,7 @@ def signin():
     sleep(3)
     mouse.position = (55, 269)
     mouse.click(Button.left, 1)
-    sleep(2)
+    sleep(3)
     ##click solver
     ##select recaptcha
     mouse.position = (165, 354)
@@ -605,7 +605,7 @@ def signin():
     sleep(5)
     mouse.position = (55, 269)
     mouse.click(Button.left, 1)
-    sleep(2)
+    sleep(3)
     ##refresh captcha
     ##select recaptcha
     mouse.position = (72, 351)
@@ -617,7 +617,7 @@ def signin():
     sleep(3)
     mouse.position = (55, 269)
     mouse.click(Button.left, 1)
-    sleep(2)
+    sleep(3)
     ##click solver
     ##select recaptcha
     mouse.position = (165, 354)
@@ -629,7 +629,7 @@ def signin():
     sleep(5)
     mouse.position = (55, 269)
     mouse.click(Button.left, 1)
-    sleep(2)
+    sleep(3)
     ##refresh captcha
     ##select recaptcha
     mouse.position = (72, 351)
@@ -641,7 +641,7 @@ def signin():
     sleep(3)
     mouse.position = (55, 269)
     mouse.click(Button.left, 1)
-    sleep(2)
+    sleep(3)
     ##click solver
     ##select recaptcha
     mouse.position = (165, 354)
@@ -653,7 +653,7 @@ def signin():
     sleep(5)
     mouse.position = (55, 269)
     mouse.click(Button.left, 1)
-    sleep(2)
+    sleep(3)
     ##refresh captcha
     ##select recaptcha
     mouse.position = (72, 351)
@@ -665,7 +665,7 @@ def signin():
     sleep(3)
     mouse.position = (55, 269)
     mouse.click(Button.left, 1)
-    sleep(2)
+    sleep(3)
     ##click solver
     ##select recaptcha
     mouse.position = (165, 354)
@@ -677,7 +677,7 @@ def signin():
     sleep(7)
     mouse.position = (55, 269)
     mouse.click(Button.left, 1)
-    sleep(2)
+    sleep(3)
 
     ##make vpn off
     on_off_ip()
