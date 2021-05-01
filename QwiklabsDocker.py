@@ -25,21 +25,30 @@ def terminal():
 
 def first_change_ip():
 
-    ##select browsec
+    ##select zenmate
     mouse.position = (1306, 70)
     mouse.click(Button.left, 1)
-    sleep(2)
-    ##start
-    mouse.position = (1276, 488)
+    sleep(4)
+    ##click 4 times to start
+    mouse.position = (1140, 368)
     mouse.click(Button.left, 1)
-    sleep(1.6)
-    ##choose usa
-    mouse.position = (1138, 417)
+    sleep(1)
+    mouse.position = (1140, 368)
     mouse.click(Button.left, 1)
-    sleep(0.5)
-    mouse.position = (965, 360)
+    sleep(1)
+    mouse.position = (1140, 368)
     mouse.click(Button.left, 1)
-    sleep(0.5)
+    sleep(1)
+    mouse.position = (1140, 368)
+    mouse.click(Button.left, 1)
+    sleep(3)
+    ##change to usa
+    mouse.position = (1137, 528)
+    mouse.click(Button.left, 1)
+    sleep(1)
+    mouse.position = (1023, 346)
+    mouse.click(Button.left, 1)
+    sleep(1)
     ##click to close it
     mouse.position = (1307, 63)
     mouse.click(Button.left, 1)
@@ -47,16 +56,20 @@ def first_change_ip():
     
 def change_ip():
 
-    ##select browsec
+    ##select zenmate
     mouse.position = (1306, 70)
     mouse.click(Button.left, 1)
     sleep(2)
-    ##start
-    mouse.position = (1276, 488)
+    ##close add
+    mouse.position = (1147, 605)
+    mouse.click(Button.left, 1)
+    sleep(2)
+    ##stop
+    mouse.position = (1140, 368)
     mouse.click(Button.left, 1)
     sleep(1.6)
     ##start
-    mouse.position = (1276, 488)
+    mouse.position = (1140, 368)
     mouse.click(Button.left, 1)
     sleep(1.6)
     ##click to close it
@@ -66,12 +79,16 @@ def change_ip():
     
 def on_off_ip():
 
-    ##select browsec
+    ##select zenmate
     mouse.position = (1306, 70)
     mouse.click(Button.left, 1)
     sleep(2)
+    ##close add
+    mouse.position = (1147, 605)
+    mouse.click(Button.left, 1)
+    sleep(2)
     ##start
-    mouse.position = (1276, 488)
+    mouse.position = (1140, 368)
     mouse.click(Button.left, 1)
     sleep(1.6)
     ##click to close it
@@ -138,7 +155,7 @@ keyboard.release('l')
 sleep(0.5)
 
 ##go to vpn site
-keyboard.type('https://addons.mozilla.org/en-US/firefox/addon/browsec/')
+keyboard.type('https://addons.mozilla.org/en-US/firefox/addon/zenmate-free-vpn-best/')
 keyboard.press(Key.enter)
 keyboard.release(Key.enter)
 sleep(7)
@@ -147,7 +164,7 @@ sleep(7)
 mouse.position = (741, 513)
 mouse.click(Button.left, 1) 
 sleep(4)
-mouse.position = (618, 276)
+mouse.position = (594, 354)
 mouse.click(Button.left, 1)
 sleep(2)
 
@@ -196,21 +213,30 @@ def signup():
 
     def first_change_ip():
 
-        ##select browsec
+        ##select zenmate
         mouse.position = (1306, 70)
         mouse.click(Button.left, 1)
-        sleep(2)
-        ##start
-        mouse.position = (1276, 488)
+        sleep(4)
+        ##click 4 times to start
+        mouse.position = (1140, 368)
         mouse.click(Button.left, 1)
-        sleep(1.6)
-        ##choose usa
-        mouse.position = (1138, 417)
+        sleep(1)
+        mouse.position = (1140, 368)
         mouse.click(Button.left, 1)
-        sleep(0.5)
-        mouse.position = (965, 360)
+        sleep(1)
+        mouse.position = (1140, 368)
         mouse.click(Button.left, 1)
-        sleep(0.5)
+        sleep(1)
+        mouse.position = (1140, 368)
+        mouse.click(Button.left, 1)
+        sleep(3)
+        ##change to usa
+        mouse.position = (1137, 528)
+        mouse.click(Button.left, 1)
+        sleep(1)
+        mouse.position = (1023, 346)
+        mouse.click(Button.left, 1)
+        sleep(1)
         ##click to close it
         mouse.position = (1307, 63)
         mouse.click(Button.left, 1)
@@ -218,16 +244,20 @@ def signup():
         
     def change_ip():
 
-        ##select browsec
+        ##select zenmate
         mouse.position = (1306, 70)
         mouse.click(Button.left, 1)
         sleep(2)
-        ##start
-        mouse.position = (1276, 488)
+        ##close add
+        mouse.position = (1147, 605)
+        mouse.click(Button.left, 1)
+        sleep(2)
+        ##stop
+        mouse.position = (1140, 368)
         mouse.click(Button.left, 1)
         sleep(1.6)
         ##start
-        mouse.position = (1276, 488)
+        mouse.position = (1140, 368)
         mouse.click(Button.left, 1)
         sleep(1.6)
         ##click to close it
@@ -237,12 +267,16 @@ def signup():
         
     def on_off_ip():
 
-        ##select browsec
+        ##select zenmate
         mouse.position = (1306, 70)
         mouse.click(Button.left, 1)
         sleep(2)
+        ##close add
+        mouse.position = (1147, 605)
+        mouse.click(Button.left, 1)
+        sleep(2)
         ##start
-        mouse.position = (1276, 488)
+        mouse.position = (1140, 368)
         mouse.click(Button.left, 1)
         sleep(1.6)
         ##click to close it
@@ -473,21 +507,30 @@ def signin():
 
     def first_change_ip():
 
-        ##select browsec
+        ##select zenmate
         mouse.position = (1306, 70)
         mouse.click(Button.left, 1)
-        sleep(2)
-        ##start
-        mouse.position = (1276, 488)
+        sleep(4)
+        ##click 4 times to start
+        mouse.position = (1140, 368)
         mouse.click(Button.left, 1)
-        sleep(1.6)
-        ##choose usa
-        mouse.position = (1138, 417)
+        sleep(1)
+        mouse.position = (1140, 368)
         mouse.click(Button.left, 1)
-        sleep(0.5)
-        mouse.position = (965, 360)
+        sleep(1)
+        mouse.position = (1140, 368)
         mouse.click(Button.left, 1)
-        sleep(0.5)
+        sleep(1)
+        mouse.position = (1140, 368)
+        mouse.click(Button.left, 1)
+        sleep(3)
+        ##change to usa
+        mouse.position = (1137, 528)
+        mouse.click(Button.left, 1)
+        sleep(1)
+        mouse.position = (1023, 346)
+        mouse.click(Button.left, 1)
+        sleep(1)
         ##click to close it
         mouse.position = (1307, 63)
         mouse.click(Button.left, 1)
@@ -495,16 +538,20 @@ def signin():
         
     def change_ip():
 
-        ##select browsec
+        ##select zenmate
         mouse.position = (1306, 70)
         mouse.click(Button.left, 1)
         sleep(2)
-        ##start
-        mouse.position = (1276, 488)
+        ##close add
+        mouse.position = (1147, 605)
+        mouse.click(Button.left, 1)
+        sleep(2)
+        ##stop
+        mouse.position = (1140, 368)
         mouse.click(Button.left, 1)
         sleep(1.6)
         ##start
-        mouse.position = (1276, 488)
+        mouse.position = (1140, 368)
         mouse.click(Button.left, 1)
         sleep(1.6)
         ##click to close it
@@ -514,12 +561,16 @@ def signin():
         
     def on_off_ip():
 
-        ##select browsec
+        ##select zenmate
         mouse.position = (1306, 70)
         mouse.click(Button.left, 1)
         sleep(2)
+        ##close add
+        mouse.position = (1147, 605)
+        mouse.click(Button.left, 1)
+        sleep(2)
         ##start
-        mouse.position = (1276, 488)
+        mouse.position = (1140, 368)
         mouse.click(Button.left, 1)
         sleep(1.6)
         ##click to close it
