@@ -30,14 +30,14 @@ def first_change_ip():
     mouse.click(Button.left, 1)
     sleep(2)
     ##start
-    mouse.position = (1280, 73)
+    mouse.position = (1276, 488)
     mouse.click(Button.left, 1)
     sleep(1.6)
     ##choose usa
-    mouse.position = (1125, 420)
+    mouse.position = (1138, 417)
     mouse.click(Button.left, 1)
     sleep(0.5)
-    mouse.position = (972, 360)
+    mouse.position = (965, 360)
     mouse.click(Button.left, 1)
     sleep(0.5)
     ##click to close it
@@ -52,11 +52,11 @@ def change_ip():
     mouse.click(Button.left, 1)
     sleep(2)
     ##start
-    mouse.position = (1280, 73)
+    mouse.position = (1276, 488)
     mouse.click(Button.left, 1)
     sleep(1.6)
-    ##stop
-    mouse.position = (1280, 73)
+    ##start
+    mouse.position = (1276, 488)
     mouse.click(Button.left, 1)
     sleep(1.6)
     ##click to close it
@@ -70,8 +70,8 @@ def on_off_ip():
     mouse.position = (1306, 70)
     mouse.click(Button.left, 1)
     sleep(2)
-    ##start or stop
-    mouse.position = (1280, 73)
+    ##start
+    mouse.position = (1276, 488)
     mouse.click(Button.left, 1)
     sleep(1.6)
     ##click to close it
@@ -200,14 +200,14 @@ def signup():
         mouse.click(Button.left, 1)
         sleep(2)
         ##start
-        mouse.position = (1280, 73)
+        mouse.position = (1276, 488)
         mouse.click(Button.left, 1)
         sleep(1.6)
         ##choose usa
-        mouse.position = (1125, 420)
+        mouse.position = (1138, 417)
         mouse.click(Button.left, 1)
         sleep(0.5)
-        mouse.position = (972, 360)
+        mouse.position = (965, 360)
         mouse.click(Button.left, 1)
         sleep(0.5)
         ##click to close it
@@ -222,11 +222,11 @@ def signup():
         mouse.click(Button.left, 1)
         sleep(2)
         ##start
-        mouse.position = (1280, 73)
+        mouse.position = (1276, 488)
         mouse.click(Button.left, 1)
         sleep(1.6)
-        ##stop
-        mouse.position = (1280, 73)
+        ##start
+        mouse.position = (1276, 488)
         mouse.click(Button.left, 1)
         sleep(1.6)
         ##click to close it
@@ -240,14 +240,15 @@ def signup():
         mouse.position = (1306, 70)
         mouse.click(Button.left, 1)
         sleep(2)
-        ##start or stop
-        mouse.position = (1280, 73)
+        ##start
+        mouse.position = (1276, 488)
         mouse.click(Button.left, 1)
         sleep(1.6)
         ##click to close it
         mouse.position = (1307, 63)
         mouse.click(Button.left, 1)
         sleep(1)
+    
 
     ##click on searchbar
     keyboard.press(Key.ctrl)
@@ -472,14 +473,14 @@ def signin():
         mouse.click(Button.left, 1)
         sleep(2)
         ##start
-        mouse.position = (1280, 73)
+        mouse.position = (1276, 488)
         mouse.click(Button.left, 1)
         sleep(1.6)
         ##choose usa
-        mouse.position = (1125, 420)
+        mouse.position = (1138, 417)
         mouse.click(Button.left, 1)
         sleep(0.5)
-        mouse.position = (972, 360)
+        mouse.position = (965, 360)
         mouse.click(Button.left, 1)
         sleep(0.5)
         ##click to close it
@@ -494,11 +495,11 @@ def signin():
         mouse.click(Button.left, 1)
         sleep(2)
         ##start
-        mouse.position = (1280, 73)
+        mouse.position = (1276, 488)
         mouse.click(Button.left, 1)
         sleep(1.6)
-        ##stop
-        mouse.position = (1280, 73)
+        ##start
+        mouse.position = (1276, 488)
         mouse.click(Button.left, 1)
         sleep(1.6)
         ##click to close it
@@ -512,8 +513,8 @@ def signin():
         mouse.position = (1306, 70)
         mouse.click(Button.left, 1)
         sleep(2)
-        ##start or stop
-        mouse.position = (1280, 73)
+        ##start
+        mouse.position = (1276, 488)
         mouse.click(Button.left, 1)
         sleep(1.6)
         ##click to close it
