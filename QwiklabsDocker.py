@@ -505,6 +505,16 @@ def signin():
         mouse.click(Button.left, 1)
         sleep(1)
 
+    def error2():
+        ##click on retry
+        mouse.position = (872, 349)
+        mouse.click(Button.left, 1)
+        sleep(2)
+        ##click on refresh
+        mouse.position = (195, 330)
+        mouse.click(Button.left, 1)
+        sleep(3)
+
     def first_change_ip():
 
         ##select zenmate
@@ -614,6 +624,8 @@ def signin():
     mouse.position = (55, 269)
     mouse.click(Button.left, 1)
     sleep(3)
+    ##retry2
+    error2()
     ##refresh captcha
     ##select recaptcha
     mouse.position = (72, 351)
@@ -638,6 +650,8 @@ def signin():
     mouse.position = (55, 269)
     mouse.click(Button.left, 1)
     sleep(3)
+    ##retry2
+    error2()
     ##refresh captcha
     ##select recaptcha
     mouse.position = (72, 351)
@@ -662,6 +676,8 @@ def signin():
     mouse.position = (55, 269)
     mouse.click(Button.left, 1)
     sleep(3)
+    ##retry2
+    error2()
     ##refresh captcha
     ##select recaptcha
     mouse.position = (72, 351)
@@ -686,6 +702,8 @@ def signin():
     mouse.position = (55, 269)
     mouse.click(Button.left, 1)
     sleep(3)
+    ##retry2
+    error2()
     ##refresh captcha
     ##select recaptcha
     mouse.position = (72, 351)
@@ -710,6 +728,8 @@ def signin():
     mouse.position = (55, 269)
     mouse.click(Button.left, 1)
     sleep(3)
+    ##retry2
+    error2()
     ##refresh captcha
     ##select recaptcha
     mouse.position = (72, 351)
@@ -826,6 +846,9 @@ def signin():
     sleep(0.5)
     ##click on agree and continue
     mouse.position = (869, 560)
+    mouse.click(Button.left, 1)
+    sleep(0.5)
+    mouse.position = (867, 590)
     mouse.click(Button.left, 1)
     sleep(7)
     ##click on terminal
