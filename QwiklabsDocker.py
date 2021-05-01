@@ -755,12 +755,16 @@ def signin():
     mouse.click(Button.left, 1)
     sleep(0.5)
     ##select to type email
+    mouse.position = (688, 330)
+    mouse.click(Button.left, 1)
+    sleep(0.5)
     keyboard.press(Key.ctrl)
     keyboard.press('a')
     keyboard.release(Key.ctrl)
     keyboard.release('a')
     keyboard.press(Key.backspace)
     keyboard.release(Key.backspace)
+    sleep(0.5)
     ##paste email
     keyboard.press(Key.ctrl)
     keyboard.press('v')
@@ -782,12 +786,16 @@ def signin():
     mouse.click(Button.left, 1)
     sleep(0.5)
     ##select to type pass
+    mouse.position = (683, 363)
+    mouse.click(Button.left, 1)
+    sleep(0.5)
     keyboard.press(Key.ctrl)
     keyboard.press('a')
     keyboard.release(Key.ctrl)
     keyboard.release('a')
     keyboard.press(Key.backspace)
     keyboard.release(Key.backspace)
+    sleep(0.5)
     ##paste pass
     keyboard.press(Key.ctrl)
     keyboard.press('v')
