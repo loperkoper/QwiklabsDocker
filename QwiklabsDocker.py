@@ -292,7 +292,15 @@ def signup():
         ##click on recaptcha
         mouse.position = (471, 316)
         mouse.click(Button.left, 1)
-        sleep(3)
+        sleep(2)
+        ##first solver
+        mouse.position = (582, 589)
+        mouse.click(Button.left, 1)
+        sleep(2)
+        ##click on recaptcha
+        mouse.position = (471, 316)
+        mouse.click(Button.left, 1)
+        sleep(2)
 
     ##click on searchbar
     keyboard.press(Key.ctrl)
@@ -386,9 +394,6 @@ def signup():
     mouse.click(Button.left, 1)
     sleep(1)
     error1()
-    mouse.position = (582, 589)
-    mouse.click(Button.left, 1)
-    sleep(4)
     ##click on refresh
     mouse.position = (486, 431)
     mouse.click(Button.left, 1)
@@ -402,9 +407,6 @@ def signup():
     mouse.click(Button.left, 1)
     sleep(1)
     error1()
-    mouse.position = (582, 589)
-    mouse.click(Button.left, 1)
-    sleep(4)
     ##click on refresh
     mouse.position = (486, 431)
     mouse.click(Button.left, 1)
@@ -418,9 +420,6 @@ def signup():
     mouse.click(Button.left, 1)
     sleep(1)
     error1()
-    mouse.position = (582, 589)
-    mouse.click(Button.left, 1)
-    sleep(4)
     ##click on refresh
     mouse.position = (486, 431)
     mouse.click(Button.left, 1)
