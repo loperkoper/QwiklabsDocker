@@ -415,24 +415,6 @@ def signup():
     mouse.position = (580, 434)
     mouse.click(Button.left, 1)
     sleep(7)
-    ##def retry
-    mouse.position = (613, 404)
-    mouse.click(Button.left, 1)
-    sleep(1)
-    error1()
-    ##click on refresh
-    mouse.position = (486, 431)
-    mouse.click(Button.left, 1)
-    sleep(5)
-    ##click on solver
-    mouse.position = (580, 434)
-    mouse.click(Button.left, 1)
-    sleep(7)
-    ##def retry
-    error1()
-    mouse.position = (582, 589)
-    mouse.click(Button.left, 1)
-    sleep(5)
     ##scroll down
     mouse.position = (1360, 613)
     mouse.click(Button.left, 1)
