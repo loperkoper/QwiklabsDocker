@@ -594,7 +594,7 @@ def signin():
     ##select recaptcha
     mouse.position = (72, 351)
     mouse.click(Button.left, 1)
-    sleep(0.5)
+    sleep(1)
     mouse.position = (73, 404)
     mouse.click(Button.left, 1)
     sleep(0.5)
@@ -606,7 +606,7 @@ def signin():
     ##select recaptcha
     mouse.position = (165, 354)
     mouse.click(Button.left, 1)
-    sleep(0.5)
+    sleep(1)
     mouse.position = (168, 406)
     mouse.click(Button.left, 1)
     sleep(0.5)
@@ -618,7 +618,7 @@ def signin():
     ##select recaptcha
     mouse.position = (72, 351)
     mouse.click(Button.left, 1)
-    sleep(0.5)
+    sleep(1)
     mouse.position = (73, 404)
     mouse.click(Button.left, 1)
     sleep(0.5)
@@ -630,7 +630,7 @@ def signin():
     ##select recaptcha
     mouse.position = (165, 354)
     mouse.click(Button.left, 1)
-    sleep(0.5)
+    sleep(1)
     mouse.position = (168, 406)
     mouse.click(Button.left, 1)
     sleep(0.5)
@@ -642,7 +642,7 @@ def signin():
     ##select recaptcha
     mouse.position = (72, 351)
     mouse.click(Button.left, 1)
-    sleep(0.5)
+    sleep(1)
     mouse.position = (73, 404)
     mouse.click(Button.left, 1)
     sleep(0.5)
@@ -654,7 +654,7 @@ def signin():
     ##select recaptcha
     mouse.position = (165, 354)
     mouse.click(Button.left, 1)
-    sleep(0.5)
+    sleep(1)
     mouse.position = (168, 406)
     mouse.click(Button.left, 1)
     sleep(0.5)
@@ -666,7 +666,7 @@ def signin():
     ##select recaptcha
     mouse.position = (72, 351)
     mouse.click(Button.left, 1)
-    sleep(0.5)
+    sleep(1)
     mouse.position = (73, 404)
     mouse.click(Button.left, 1)
     sleep(0.5)
@@ -678,7 +678,7 @@ def signin():
     ##select recaptcha
     mouse.position = (165, 354)
     mouse.click(Button.left, 1)
-    sleep(0.5)
+    sleep(1)
     mouse.position = (168, 406)
     mouse.click(Button.left, 1)
     sleep(0.5)
@@ -690,7 +690,7 @@ def signin():
     ##select recaptcha
     mouse.position = (72, 351)
     mouse.click(Button.left, 1)
-    sleep(0.5)
+    sleep(1)
     mouse.position = (73, 404)
     mouse.click(Button.left, 1)
     sleep(0.5)
@@ -702,7 +702,7 @@ def signin():
     ##select recaptcha
     mouse.position = (165, 354)
     mouse.click(Button.left, 1)
-    sleep(0.5)
+    sleep(1)
     mouse.position = (168, 406)
     mouse.click(Button.left, 1)
     sleep(0.5)
@@ -714,7 +714,7 @@ def signin():
     ##select recaptcha
     mouse.position = (72, 351)
     mouse.click(Button.left, 1)
-    sleep(0.5)
+    sleep(1)
     mouse.position = (73, 404)
     mouse.click(Button.left, 1)
     sleep(0.5)
@@ -726,7 +726,7 @@ def signin():
     ##select recaptcha
     mouse.position = (165, 354)
     mouse.click(Button.left, 1)
-    sleep(0.5)
+    sleep(1)
     mouse.position = (168, 406)
     mouse.click(Button.left, 1)
     sleep(0.5)
