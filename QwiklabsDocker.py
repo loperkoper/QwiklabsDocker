@@ -737,32 +737,6 @@ def signin():
     mouse.position = (55, 269)
     mouse.click(Button.left, 1)
     sleep(3)
-    ##retry2
-    error2()
-    ##refresh captcha
-    ##select recaptcha
-    mouse.position = (72, 351)
-    mouse.click(Button.left, 1)
-    sleep(1)
-    mouse.position = (73, 404)
-    mouse.click(Button.left, 1)
-    sleep(0.5)
-    sleep(3)
-    mouse.position = (55, 269)
-    mouse.click(Button.left, 1)
-    sleep(3)
-    ##click solver
-    ##select recaptcha
-    mouse.position = (165, 354)
-    mouse.click(Button.left, 1)
-    sleep(1)
-    mouse.position = (168, 406)
-    mouse.click(Button.left, 1)
-    sleep(0.5)
-    sleep(7)
-    mouse.position = (55, 269)
-    mouse.click(Button.left, 1)
-    sleep(3)
 
     ##make vpn off
     on_off_ip()
@@ -894,6 +868,9 @@ def signin():
     keyboard.type("6080")
     sleep(1)
     mouse.position = (441, 570)
+    mouse.click(Button.left, 1)
+    sleep(1)
+    mouse.position = (563, 570)
     mouse.click(Button.left, 1)
     sleep(15)
     ##open terminal in new vnc
