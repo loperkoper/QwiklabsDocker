@@ -78,7 +78,8 @@ def on_off_ip():
     mouse.position = (1307, 63)
     mouse.click(Button.left, 1)
     sleep(1)
-    
+
+
 ##minimize Terminal
 mouse.position = (968, 94)
 mouse.click(Button.left, 1) 
@@ -248,7 +249,16 @@ def signup():
         mouse.position = (1307, 63)
         mouse.click(Button.left, 1)
         sleep(1)
-    
+        
+    def error1():
+        ##click on retry
+        mouse.position = (872, 349)
+        mouse.click(Button.left, 1)
+        sleep(1)
+        ##click on recaptcha
+        mouse.position = (471, 316)
+        mouse.click(Button.left, 1)
+        sleep(3)
 
     ##click on searchbar
     keyboard.press(Key.ctrl)
@@ -337,6 +347,8 @@ def signup():
     mouse.position = (582, 589)
     mouse.click(Button.left, 1)
     sleep(7)
+    ##def retry
+    error1()
     ##click on refresh
     mouse.position = (486, 431)
     mouse.click(Button.left, 1)
@@ -345,6 +357,8 @@ def signup():
     mouse.position = (580, 434)
     mouse.click(Button.left, 1)
     sleep(7)
+    ##def retry
+    error1()
     ##click on refresh
     mouse.position = (486, 431)
     mouse.click(Button.left, 1)
@@ -353,6 +367,8 @@ def signup():
     mouse.position = (580, 434)
     mouse.click(Button.left, 1)
     sleep(7)
+    ##def retry
+    error1()
     ##click on refresh
     mouse.position = (486, 431)
     mouse.click(Button.left, 1)
@@ -361,6 +377,8 @@ def signup():
     mouse.position = (580, 434)
     mouse.click(Button.left, 1)
     sleep(7)
+    ##def retry
+    error1()
     ##click on refresh
     mouse.position = (486, 431)
     mouse.click(Button.left, 1)
@@ -369,6 +387,8 @@ def signup():
     mouse.position = (580, 434)
     mouse.click(Button.left, 1)
     sleep(7)
+    ##def retry
+    error1()
     ##click on refresh
     mouse.position = (486, 431)
     mouse.click(Button.left, 1)
