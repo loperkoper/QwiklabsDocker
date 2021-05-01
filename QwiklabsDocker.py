@@ -150,6 +150,11 @@ mouse.position = (618, 276)
 mouse.click(Button.left, 1)
 sleep(2)
 
+##click on okay
+mouse.position = (1345, 276)
+mouse.click(Button.left, 1)
+sleep(2)
+
 ##close vpn page
 mouse.position = (433, 38)
 mouse.click(Button.left, 1)
@@ -168,12 +173,6 @@ mouse.position = (208, 34)
 mouse.click(Button.left, 1)
 sleep(2)
 
-##click on searchbar
-keyboard.press(Key.ctrl)
-keyboard.press('l')
-keyboard.release(Key.ctrl)
-keyboard.release('l')
-sleep(0.5)
 
 def signup():
     
@@ -249,6 +248,13 @@ def signup():
         mouse.position = (1307, 63)
         mouse.click(Button.left, 1)
         sleep(1)
+
+    ##click on searchbar
+    keyboard.press(Key.ctrl)
+    keyboard.press('l')
+    keyboard.release(Key.ctrl)
+    keyboard.release('l')
+    sleep(0.5)
         
     ##go to qwiklabs signup
     keyboard.type('https://www.qwiklabs.com/users/sign_up')
@@ -416,8 +422,15 @@ def signup():
     mouse.position = (207, 34)
     mouse.click(Button.left, 1)
     sleep(2)
+    ##back and refresh
+    mouse.position = (19, 72)
+    mouse.click(Button.left, 1)
+    sleep(5)
+    mouse.position = (52, 69)
+    mouse.click(Button.left, 1)
+    sleep(5)
     ##sleep
-    sleep(15)
+    sleep(10)
     ##click on search bar qwiklabs
     mouse.position = (823, 122)
     mouse.click(Button.left, 1)
