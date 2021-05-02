@@ -967,17 +967,39 @@ def signin():
     
 def panj():
     ##clear cookies
-    pyautogui.keyDown("ctrl")
-    pyautogui.keyDown("shift")
-    pyautogui.press('del')
-    pyautogui.keyUp("ctrl")
-    pyautogui.keyUp("shift")
+    keyboard.press(Key.ctrl)
+    keyboard.press(Key.shift)
+    keyboard.press(Key.delete)
+    keyboard.release(Key.delete)
+    keyboard.release(Key.shift)
+    keyboard.release(Key.ctrl)
     sleep(2)
     ##click on delet
     mouse.position = (848, 462)
     mouse.click(Button.left, 1)
     sleep(2)
 
-signup()
-signin()
-panj()
+    
+i = 0
+j = 0
+while i < 5:
+    signup()
+    while j <5:
+        signin()
+    j = 0
+    ##minimize firefox
+    mouse.position = (1323, 8)
+    mouse.click(Button.left, 1)
+    sleep(2)
+    ##minimize Terminal
+    mouse.position = (968, 94)
+    mouse.click(Button.left, 1) 
+    sleep(1)
+    ##open terminal
+    terminal()
+    ##write command
+    keyboard.type('firefox')
+    sleep(0.5)
+    keyboard.press(Key.enter)
+    keyboard.release(Key.enter)
+    sleep(10)
