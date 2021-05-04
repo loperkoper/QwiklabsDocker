@@ -25,35 +25,39 @@ def terminal():
 
 def first_change_ip():
 
-    ##select zenmate
-    mouse.position = (1306, 70)
-    mouse.click(Button.left, 1)
-    sleep(4)
-    ##click 4 times to start
-    mouse.position = (1140, 368)
-    mouse.click(Button.left, 1)
-    sleep(1)
-    mouse.position = (1140, 368)
-    mouse.click(Button.left, 1)
-    sleep(1)
-    mouse.position = (1140, 368)
-    mouse.click(Button.left, 1)
-    sleep(1)
-    mouse.position = (1140, 368)
-    mouse.click(Button.left, 1)
-    sleep(3)
-    ##change to usa
-    mouse.position = (1137, 528)
-    mouse.click(Button.left, 1)
-    sleep(1)
-    mouse.position = (1023, 346)
-    mouse.click(Button.left, 1)
-    sleep(1)
-    ##click to close it
-    mouse.position = (1307, 63)
-    mouse.click(Button.left, 1)
-    sleep(1)
-    
+        ##select zenmate
+        mouse.position = (1306, 70)
+        mouse.click(Button.left, 1)
+        sleep(4)
+        ##click 4 times to start
+        mouse.position = (1140, 368)
+        mouse.click(Button.left, 1)
+        sleep(1)
+        mouse.position = (1140, 368)
+        mouse.click(Button.left, 1)
+        sleep(1)
+        mouse.position = (1140, 368)
+        mouse.click(Button.left, 1)
+        sleep(1)
+        mouse.position = (1140, 368)
+        mouse.click(Button.left, 1)
+        sleep(3)
+        ###change to usa
+        #mouse.position = (1137, 528)
+        #mouse.click(Button.left, 1)
+        #sleep(1)
+        #mouse.position = (1023, 346)
+        #mouse.click(Button.left, 1)
+        #sleep(1)
+        ##select to start
+        mouse.position = (1140, 368)
+        mouse.click(Button.left, 1)
+        sleep(2)
+        ##click to close it
+        mouse.position = (1307, 63)
+        mouse.click(Button.left, 1)
+        sleep(1)
+        
 def change_ip():
 
     ##select zenmate
@@ -559,13 +563,17 @@ def signin():
         mouse.position = (1140, 368)
         mouse.click(Button.left, 1)
         sleep(3)
-        ##change to usa
-        mouse.position = (1137, 528)
+        ###change to usa
+        #mouse.position = (1137, 528)
+        #mouse.click(Button.left, 1)
+        #sleep(1)
+        #mouse.position = (1023, 346)
+        #mouse.click(Button.left, 1)
+        #sleep(1)
+        ##select to start
+        mouse.position = (1140, 368)
         mouse.click(Button.left, 1)
-        sleep(1)
-        mouse.position = (1023, 346)
-        mouse.click(Button.left, 1)
-        sleep(1)
+        sleep(2)
         ##click to close it
         mouse.position = (1307, 63)
         mouse.click(Button.left, 1)
@@ -1015,4 +1023,3 @@ while i < 50:
     keyboard.press(Key.enter)
     keyboard.release(Key.enter)
     sleep(10)
-    
