@@ -230,13 +230,17 @@ def signup():
         mouse.position = (1140, 368)
         mouse.click(Button.left, 1)
         sleep(3)
-        ##change to usa
-        mouse.position = (1137, 528)
+        ###change to usa
+        #mouse.position = (1137, 528)
+        #mouse.click(Button.left, 1)
+        #sleep(1)
+        #mouse.position = (1023, 346)
+        #mouse.click(Button.left, 1)
+        #sleep(1)
+        ##select to start
+        mouse.position = (1140, 368)
         mouse.click(Button.left, 1)
-        sleep(1)
-        mouse.position = (1023, 346)
-        mouse.click(Button.left, 1)
-        sleep(1)
+        sleep(2)
         ##click to close it
         mouse.position = (1307, 63)
         mouse.click(Button.left, 1)
