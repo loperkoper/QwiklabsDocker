@@ -816,9 +816,6 @@ def signin():
     mouse.position = (433, 447)
     mouse.click(Button.left, 1)
     sleep(0.5)
-    mouse.position = (434, 414)
-    mouse.click(Button.left, 1)
-    sleep(0.5)
     ##click on agree and continue
     mouse.position = (869, 560)
     mouse.click(Button.left, 1)
