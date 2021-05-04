@@ -966,6 +966,9 @@ def panj():
     ##click on delet
     mouse.position = (848, 462)
     mouse.click(Button.left, 1)
+    sleep(0.5)
+    mouse.position = (852, 543)
+    mouse.click(Button.left, 1)
     sleep(2)
 
     
