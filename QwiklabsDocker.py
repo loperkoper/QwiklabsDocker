@@ -623,7 +623,48 @@ def signin():
     sleep(3)
     ##click solver
     ##select recaptcha
-    mouse.position = (165, 354)
+    mouse.position = (162, 371)
+    mouse.click(Button.left, 1)
+    sleep(1)
+    mouse.position = (168, 406)
+    mouse.click(Button.left, 1)
+    sleep(0.5)
+    sleep(5)
+    mouse.position = (55, 269)
+    mouse.click(Button.left, 1)
+    sleep(3)
+    ##retry2
+    error2()
+    ##refresh captcha
+    ##select recaptcha
+    mouse.position = (72, 351)
+    mouse.click(Button.left, 1)
+    sleep(1)
+    mouse.position = (73, 404)
+    mouse.click(Button.left, 1)
+    sleep(0.5)
+    sleep(3)
+    mouse.position = (55, 269)
+    mouse.click(Button.left, 1)
+    sleep(3)
+
+    ##retry2
+    error2()
+    ##refresh captcha
+    ##select recaptcha
+    mouse.position = (72, 351)
+    mouse.click(Button.left, 1)
+    sleep(1)
+    mouse.position = (73, 404)
+    mouse.click(Button.left, 1)
+    sleep(0.5)
+    sleep(3)
+    mouse.position = (55, 269)
+    mouse.click(Button.left, 1)
+    sleep(3)
+    ##click solver
+    ##select recaptcha
+    mouse.position = (162, 371)
     mouse.click(Button.left, 1)
     sleep(1)
     mouse.position = (168, 406)
@@ -649,7 +690,7 @@ def signin():
     sleep(3)
     ##click solver
     ##select recaptcha
-    mouse.position = (165, 354)
+    mouse.position = (162, 371)
     mouse.click(Button.left, 1)
     sleep(1)
     mouse.position = (168, 406)
@@ -675,59 +716,7 @@ def signin():
     sleep(3)
     ##click solver
     ##select recaptcha
-    mouse.position = (165, 354)
-    mouse.click(Button.left, 1)
-    sleep(1)
-    mouse.position = (168, 406)
-    mouse.click(Button.left, 1)
-    sleep(0.5)
-    sleep(5)
-    mouse.position = (55, 269)
-    mouse.click(Button.left, 1)
-    sleep(3)
-    ##retry2
-    error2()
-    ##refresh captcha
-    ##select recaptcha
-    mouse.position = (72, 351)
-    mouse.click(Button.left, 1)
-    sleep(1)
-    mouse.position = (73, 404)
-    mouse.click(Button.left, 1)
-    sleep(0.5)
-    sleep(3)
-    mouse.position = (55, 269)
-    mouse.click(Button.left, 1)
-    sleep(3)
-    ##click solver
-    ##select recaptcha
-    mouse.position = (165, 354)
-    mouse.click(Button.left, 1)
-    sleep(1)
-    mouse.position = (168, 406)
-    mouse.click(Button.left, 1)
-    sleep(0.5)
-    sleep(5)
-    mouse.position = (55, 269)
-    mouse.click(Button.left, 1)
-    sleep(3)
-    ##retry2
-    error2()
-    ##refresh captcha
-    ##select recaptcha
-    mouse.position = (72, 351)
-    mouse.click(Button.left, 1)
-    sleep(1)
-    mouse.position = (73, 404)
-    mouse.click(Button.left, 1)
-    sleep(0.5)
-    sleep(3)
-    mouse.position = (55, 269)
-    mouse.click(Button.left, 1)
-    sleep(3)
-    ##click solver
-    ##select recaptcha
-    mouse.position = (165, 354)
+    mouse.position = (162, 371)
     mouse.click(Button.left, 1)
     sleep(1)
     mouse.position = (168, 406)
@@ -822,7 +811,7 @@ def signin():
     ##click on confirm
     mouse.position = (822, 542)
     mouse.click(Button.left, 1)
-    sleep(15)
+    sleep(20)
     ##click on checkbox
     mouse.position = (433, 447)
     mouse.click(Button.left, 1)
@@ -989,7 +978,9 @@ while i < 5:
     signup()
     while j <5:
         signin()
+        j = j+1
     j = 0
+    i = i+1
     ##minimize firefox
     mouse.position = (1323, 8)
     mouse.click(Button.left, 1)
