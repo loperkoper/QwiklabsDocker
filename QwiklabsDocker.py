@@ -327,6 +327,18 @@ def signup():
     mouse.position = (1309, 484)
     mouse.click(Button.left, 1)
     sleep(3)
+    ##scroll down
+    mouse.position = (1360, 223)
+    mouse.click(Button.left, 1)
+    sleep(2)
+    ##generate new email
+    mouse.position = (640, 373)
+    mouse.click(Button.left, 1)
+    sleep(5)
+    ##close add
+    mouse.position = (1309, 484)
+    mouse.click(Button.left, 1)
+    sleep(3)
     ##copy email
     mouse.position = (998, 565)
     mouse.click(Button.left, 2)
@@ -976,10 +988,10 @@ i = 0
 j = 0
 while i < 50:
     signup()
-    signin()
-    #while j <5:
-    #    signin()
-    #    j = j+1
+    #signin()
+    while j <5:
+        signin()
+        j = j+1
     j = 0
     i = i+1
     panj()
