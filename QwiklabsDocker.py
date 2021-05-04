@@ -1006,7 +1006,7 @@ while i < 50:
         j = j+1
     j = 0
     i = i+1
-    panj()
+    #panj()
     ##minimize firefox
     mouse.position = (1323, 8)
     mouse.click(Button.left, 1)
